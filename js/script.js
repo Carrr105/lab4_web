@@ -35,7 +35,8 @@ function AllClear(e){
 }
 
 function AllDel(e){
-    
+    var list = document.getElementById("todoList");
+    list.innerHTML = '';
 }
 
 function AllMark(e){
